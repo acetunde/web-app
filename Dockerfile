@@ -1,3 +1,3 @@
 FROM tomcat:8.0.20-jre8
-COPY target/*.war /usr/local/tomcat/webapps/rbc.war
+COPY target/web-app.war /usr/local/tomcat/webapps/rbc.war
 
